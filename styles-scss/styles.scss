@@ -13,38 +13,17 @@ body#background00{
 	background-size: 100%;
 }
 
-table#t01 {
-	margin-top: 25%;
-	margin-left: auto;
-	margin-right: auto;
-}
-/* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.row-1{
-	width: 50%;
-}
-
 .column-left{
 	background-color: $sunnyColor;
 	float: left;
 	width: 50%;
+	padding: 20px;
 }
 
 .column-right{
 	float: right;
 	width: 50%;
+	padding: 20px;
 	.top{
 		background-color: #e7c794;
 		width: 50%;
