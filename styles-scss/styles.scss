@@ -16,10 +16,12 @@ body#background00{
 .column-left{
 	background-color: #97a884;
 	float: left;
+	width: 50%;
 }
 
 .column-right{
 	float: right;
+	width: 50%;
 	.top{
 		background-color: #e7c794;
 	}
