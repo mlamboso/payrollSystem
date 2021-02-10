@@ -3,8 +3,15 @@ body#background00 {
   background-size: 100%;
 }
 
-.column {
+.column-1 {
   background-color: #dc8d6c;
+  float: left;
+  width: 50%;
+  height: 768px;
+}
+
+.column-2 {
+  background-color: #cdd6a9;
   float: left;
   width: 50%;
   height: 768px;
