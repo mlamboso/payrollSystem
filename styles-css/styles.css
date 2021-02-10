@@ -3,6 +3,10 @@ body#background00 {
   background-size: 100%;
 }
 
+.row {
+  width: 50%;
+}
+
 .column-left {
   background-color: #e7c794;
   float: left;
