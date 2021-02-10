@@ -3,7 +3,7 @@ body#background00 {
   background-size: 100%;
 }
 
-.row {
+.row-1 {
   width: 50%;
 }
 
@@ -19,9 +19,11 @@ body#background00 {
 }
 .column-right .top {
   background-color: #e7c794;
+  width: 50%;
 }
 .column-right .bottom {
   background-color: #676e5e;
+  width: 50%;
 }
 
 /*# sourceMappingURL=styles.css.map */
