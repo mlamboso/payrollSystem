@@ -3,10 +3,16 @@ body#background00 {
   background-size: 100%;
 }
 
-.column-left {
+.column {
   background-color: #e7c794;
   float: left;
-  width: 60%;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .column-right {
