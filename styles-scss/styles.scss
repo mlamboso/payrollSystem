@@ -5,18 +5,27 @@ $coralColor: #dc8d6c;
 $headerColor: #97a884;
 $lightColor: #cdd6a9;
 $ultraLight: #e6e7d5;
-$primaryFont: brandon grotesque;
+$primaryFont: Arial;
+
+h1{
+	font-family: $primaryFont;
+	font-size: 48px;
+	color: $ultraLight;
+	text-align: center;
+}
 
 body#background00{
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
 
+
 .column-1{
 	background-color: #dc8d6c;
 	float: left;
 	width: 50%;
 	height: 768px;
+	padding-left: 20px;
 }
 
 .column-2{
@@ -24,6 +33,7 @@ body#background00{
 	float: left;
 	width: 50%;
 	height: 768px;
+	padding-left: 20px;
 }
 
 .row:after {
@@ -31,19 +41,3 @@ body#background00{
   display: table;
   clear: both;
 }
-
-/*.column-right{
-	background-color: #dc8d6c;
-	float: right;
-	width: 40%;
-	padding-left: 20px;
-	.top{
-		background-color: #e7c794;
-		width: 50%;
-	}
-	.bottom{
-		background-color: $darkGreen;
-		width: 50%;
-	}
-
-}*/
