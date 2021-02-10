@@ -5,12 +5,20 @@ $coralColor: #dc8d6c;
 $headerColor: #97a884;
 $lightColor: #cdd6a9;
 $ultraLight: #e6e7d5;
+$darkGray: #838b8b;
 $primaryFont: Arial;
 
 h1{
 	font-family: $primaryFont;
 	font-size: 48px;
 	color: $ultraLight;
+	text-align: center;
+}
+
+p1{
+	font-family: $primaryFont;
+	font-size: 24px;
+	color: $darkGray;
 	text-align: center;
 }
 
@@ -25,7 +33,6 @@ body#background00{
 	float: left;
 	width: 50%;
 	height: 768px;
-	padding-left: 20px;
 }
 
 .column-2{
@@ -33,7 +40,6 @@ body#background00{
 	float: left;
 	width: 50%;
 	height: 768px;
-	padding-left: 20px;
 }
 
 .row:after {
