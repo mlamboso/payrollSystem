@@ -5,6 +5,13 @@ h1 {
   text-align: center;
 }
 
+p1 {
+  font-family: Arial;
+  font-size: 24px;
+  color: #838b8b;
+  text-align: center;
+}
+
 body#background00 {
   background-repeat: no-repeat;
   background-size: 100%;
@@ -15,7 +22,6 @@ body#background00 {
   float: left;
   width: 50%;
   height: 768px;
-  padding-left: 20px;
 }
 
 .column-2 {
@@ -23,7 +29,6 @@ body#background00 {
   float: left;
   width: 50%;
   height: 768px;
-  padding-left: 20px;
 }
 
 .row:after {
