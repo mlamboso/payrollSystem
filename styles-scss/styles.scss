@@ -13,3 +13,19 @@ body#background00{
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
+
+.column-left{
+	background-color: #97a884;
+	float: left;
+}
+
+.column-right{
+	float: right;
+	.top{
+		background-color: #e7c794;
+	}
+	.bottom{
+		background-color: $darkGreen;
+	}
+
+}
