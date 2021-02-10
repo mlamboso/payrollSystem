@@ -16,14 +16,13 @@ body#background00{
 .column-left{
 	background-color: $sunnyColor;
 	float: left;
-	width: 50%;
-	padding: 20px;
+	width: 60%;
 }
 
 .column-right{
 	float: left;
-	width: 50%;
-	padding: 20px;
+	width: 40%;
+	padding-left: 20px;
 	.top{
 		background-color: #e7c794;
 		width: 50%;
