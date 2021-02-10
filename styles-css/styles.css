@@ -11,7 +11,7 @@ body#background00 {
 }
 
 .column-right {
-  float: right;
+  float: left;
   width: 50%;
   padding: 20px;
 }
