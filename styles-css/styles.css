@@ -1,22 +1,23 @@
-body#background00{
-	background-repeat: no-repeat;
-	background-size: 100%;
+body#background00 {
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
-.column-left{
-	background-color: #97a884;
-	float: left;
-	width: 50%;
+.column-left {
+  background-color: #97a884;
+  float: left;
+  width: 50%;
 }
 
-.column-right{
-	float: right;
-	width: 50%;
-	.top{
-		background-color: #e7c794;
-	}
-	.bottom{
-		background-color: $darkGreen;
-	}
-
+.column-right {
+  float: right;
+  width: 50%;
 }
+.column-right .top {
+  background-color: #e7c794;
+}
+.column-right .bottom {
+  background-color: #676e5e;
+}
+
+/*# sourceMappingURL=styles.css.map */
