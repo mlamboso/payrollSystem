@@ -4,21 +4,26 @@ $sunnyColor: #e7c794;
 $coralColor: #dc8d6c;
 $headerColor: #97a884;
 $lightColor: #cdd6a9;
-$ultraLight: #e6e7d5;
+$ultraLight: #f5f5f5;
 $darkGray: #838b8b;
 $primaryFont: Arial;
 
+html, body{
+	margin: 0%;
+}
+
 h1{
 	font-family: $primaryFont;
-	font-size: 48px;
+	font-size: 36px;
 	color: $ultraLight;
 	text-align: center;
 }
 
+
 p{
 	font-family: $primaryFont;
-	font-size: 24px;
-	color: $darkGray;
+	font-size: 20px;
+	color: $ultraLight;
 	text-align: center;
 }
 
@@ -27,19 +32,86 @@ body#background00{
 	background-size: 100%;
 }
 
+.logo{
+	img{
+		width: 300px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 30%;
+	}
+}
+
+.holder{
+	//background-color: $darkGray;
+	width: 400px;
+	height: 200px;
+	padding-left: 30px;
+	border-radius: 15px;
+	
+
+
+	h2{
+		font-family: $primaryFont;
+		font-size: 20px;
+		color: $darkGray;
+		font-weight: bolder;
+		display: block;
+		margin-left:auto;
+		margin-top: 10%;	
+	}
+}
+
+.login-form{
+
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+
+	input[type="text"],[type="password"]{
+			width: 170px;
+			height: 35px;
+			background-color: $ultraLight;
+			font-size: 14px;
+			text-align: left;
+			border-radius: 15px;
+			margin-left: auto;
+			margin-right: auto;	
+	}
+
+	input[type="button"]{
+		width: 70px;
+		height: 35px;
+		background-color: $darkGray;
+		color: $ultraLight;
+		text-align: center;
+		border-radius: 15px;
+		margin-top: 25px;
+		margin-right: auto;	
+}
+
+
+	p{		
+		font-family: $primaryFont;
+		font-size: 15px;
+		color: $ultraLight;
+		padding-left: 30px;
+	}
+}
 
 .column-1{
-	background-color: #dc8d6c;
+	background-color: $darkGray;
 	float: left;
-	width: 50%;
-	height: 768px;
+	width: 60%;
+	height: 100vh;
 }
 
 .column-2{
-	background-color: #cdd6a9;
+	background-color: $bgColor;
 	float: left;
-	width: 50%;
-	height: 768px;
+	width: 40%;
+	height: 100vh;
+	padding-left: 0;
 }
 
 .row:after {

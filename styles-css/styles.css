@@ -1,14 +1,18 @@
+html, body {
+  margin: 0%;
+}
+
 h1 {
   font-family: Arial;
-  font-size: 48px;
-  color: #e6e7d5;
+  font-size: 36px;
+  color: #f5f5f5;
   text-align: center;
 }
 
 p {
   font-family: Arial;
-  font-size: 24px;
-  color: #838b8b;
+  font-size: 20px;
+  color: #f5f5f5;
   text-align: center;
 }
 
@@ -17,18 +21,75 @@ body#background00 {
   background-size: 100%;
 }
 
+.logo img {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30%;
+}
+
+.holder {
+  width: 400px;
+  height: 200px;
+  padding-left: 30px;
+  border-radius: 15px;
+}
+.holder h2 {
+  font-family: Arial;
+  font-size: 20px;
+  color: #838b8b;
+  font-weight: bolder;
+  display: block;
+  margin-left: auto;
+  margin-top: 10%;
+}
+
+.login-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.login-form input[type=text], .login-form [type=password] {
+  width: 170px;
+  height: 35px;
+  background-color: #f5f5f5;
+  font-size: 14px;
+  text-align: left;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.login-form input[type=button] {
+  width: 70px;
+  height: 35px;
+  background-color: #838b8b;
+  color: #f5f5f5;
+  text-align: center;
+  border-radius: 15px;
+  margin-top: 25px;
+  margin-right: auto;
+}
+.login-form p {
+  font-family: Arial;
+  font-size: 15px;
+  color: #f5f5f5;
+  padding-left: 30px;
+}
+
 .column-1 {
-  background-color: #dc8d6c;
+  background-color: #838b8b;
   float: left;
-  width: 50%;
-  height: 768px;
+  width: 60%;
+  height: 100vh;
 }
 
 .column-2 {
-  background-color: #cdd6a9;
+  background-color: #ededed;
   float: left;
-  width: 50%;
-  height: 768px;
+  width: 40%;
+  height: 100vh;
+  padding-left: 0;
 }
 
 .row:after {
